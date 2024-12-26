@@ -4,7 +4,8 @@ library(ggplot2)
 library(corrplot)
 
 # Load the dataset
-file_path <- "31276.csv"  # Replace with your file path
+setwd("C:\\Users\\sarim\\Downloads\\Work")
+file_path <- "31276.csv"
 data <- read.csv(file_path)
 
 # Inspect the structure of the dataset
